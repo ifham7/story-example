@@ -2,4 +2,4 @@
 DataVizForAll.org story template using modified Bootstrap
 
 ## live view (change to your GitHub Pages link)
-https://jackdougherty.github.io/story-example/
+https://ifham7.github.io/story-example/
