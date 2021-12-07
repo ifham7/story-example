@@ -63,26 +63,16 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-8 mx-auto">
-          <h2>Story</h2>
-          <p class="lead">TELL AND SHOW your story and data visualizations here. Notice how this HTML "lead" class tag enlarges and draws attention to this paragraph, compared to other paragraphs without this tag.</p>
-
-          <p>Start new paragraphs between p tags. Include links when appropriate, such as the <a href="https://handsondataviz.org">Hands-On DataViz</a> book.</p>
-
-          <p>Compose your data story in your Google Doc, because it's easier to write and edit, especially when working with other people. When you're ready, go to this <a href="https://github.com/DataVizForAll/dataviz-story-template">GitHub dataviz-story-template repo</a> to create your own template, and publish it online using Settings > Pages.</a>
-
-          <p>One advantage of this template is that you can quickly make and view edits on your local computer. Go to your GitHub repo and select Code > Download Zip, uncompress the folder, and install a free code editor tool such as <a href="https://atom.io">Atom Editor</a>, and open the "index.html" file to make edits directly on your local computer. View your edits by opening "index.html" with any browser, which is faster than waiting for GitHub Pages to update your online version every time you make a small change. After making several edits on your local computer, carefully delete the old "index.html" file in your online GitHub repo, and replace it with the updated "index.html" file from your local computer.</p>
-
-          <p>When describing charts, maps, or tables that appear further below, refer to them "...as shown in Figure 1" or "...as shown in Table 1" and include those figure/table numbers in the titles or captions below.</p>
-
-          <p>Embed each published visualization as an HTML iframe code, following instructions in HODV chapter 9, similar to the sample below.</p>
+          <p>Out of the total 26,319 housing code cases, Asylum Hill, Barry Square, Northeast, and West End accounted for just over half the total number of cases with 13,186 or 50.10%. The remainder of the 13 neighborhoods constitute about 49.9% or 13,133 cases. Consistent with the earlier data, a targeted approach to reducing the number of housing code cases in the future would be an effective strategy.   
+</p>
+       
         <h4>Four neighborhoods have more than half of the total housing code cases</h4>
 
           <iframe title="Percentage of Housing Code Cases in Hartford " aria-label="Map" id="datawrapper-chart-QyUUD" src="https://datawrapper.dwcdn.net/QyUUD/4/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="756"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();
 </script>
           <p>Figure 1: Mapping where most of the housing code violations are located</p>
 
-          <p>Out of the total 26,319 housing code cases, Asylum Hill, Barry Square, Northeast, and West End accounted for just over half the total number of cases with 13,186 or 50.10%. The remainder of the 13 neighborhoods constitute about 49.9% or 13,133 cases. Consistent with the earlier data, a targeted approach to reducing the number of housing code cases in the future would be an effective strategy.   
-</p>
+          
         <h5>Tabulated data highlighting the number of cases in each neighborhood<h5>
 
       <style type="text/css">
@@ -204,9 +194,23 @@
         <iframe width="800" height="591" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRAyacA9vcVJ-B-kkx3puQIcnoKGlOhT8WlDeOLE4Ztoj37M_BCdE7QSUCvuztqXSnHwYldraMKKOCQ/pubchart?oid=145191723&amp;format=interactive"></iframe>
 
       
+<h4>10% of Owners Make Up 57% of Housing Code Cases.</h4>
+          
+          <p>Hartford has an issue with real estate owners committing housing code cases. <p>
+
+<p>Of the 19,798 cases with identifiable landlords (looking at the dataset as of November 16, 2021), 11,335 of them were related to just 10% of owners (the 335 owners with the highest number of cases out of the 3,354 owners identified). This finding suggests that a targeted approach toward the handful of owners can be an effective approach to reduce the amount of housing code cases going forward. The 90th percentile of cases (with the highest percentile being most cases and lowest percentile being least cases) is 11 cases, meaning that any owner with 11 or more cases falls into the top 10% of owners in terms of case count.<p>
+
+<p>It must be noted that a reasonable assumption would be that the owners with the highest number of housing code cases own a relatively proportional amount of real estate in Hartford. While this unproven hypothesis may or may not be true, it is still important to understand that most housing code cases are related to a small minority of entities. For more information, see the build 3 graphs that identify housing code case owners by amount of cases.<p>
 
           
-
+          <iframe width="836" height="517" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRIlVPjWn2Vw9temzaWHFmxWJWM3aCs_j8zVurLBWbN6jj6l-3zZK8z5bf6fsn55Q1w7G0yY6_DBjGy/pubchart?oid=2100641548&amp;format=interactive"></iframe>
+<p>A good starting point in fighting housing code cases would be to identify the largest non-LLC owners (which can be found among the top entities in the graph below), since those responsible can be tracked down easier than owners who use an LLC to shield themselves.
+<p>
+          
+  <iframe allow="geolocation" src="https://data.hartford.gov/dataset/Housing-Code-Cases-by-Entity/ihi4-ni3v/embed?width=800&height=600" width="800" height="600" style="border:0; padding: 0; margin: 0;"></iframe>
+  
+  
+  
         </div>
       </div>
     </div>
@@ -218,7 +222,7 @@
       <div class="row">
         <div class="col-lg-8 mx-auto">
           <h2>Data</h2>
-          <p>The data was gathered by the city of Hartford. Link to the dataset: https://data.hartford.gov/Housing-Development/HousingCodeCases_01012011_Current/86ax-cfey</p>
+          <p>The data was gathered by the city of Hartford. Link to the dataset: https://data.hartford.gov/Housing-Development/HousingCodeCases_01012011_Current/86ax-cfey. Note: The data available as of December 6 goes up to June 18 2020. The data on this database is updated periodically at the discretion of the City of Hartford's database team.</p>
         </div>
       </div>
     </div>
@@ -252,3 +256,5 @@
 <script src="scrolling.js"></script>
 
 </html>
+
+
